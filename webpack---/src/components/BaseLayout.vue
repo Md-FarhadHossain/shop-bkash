@@ -1,0 +1,4 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{style:({ display: _vm.showDisplay })},[(_vm.isCustomPage)?_c('nav-bar',{attrs:{"google-play-store-link":_vm.googlePlayStoreLink,"apple-store-link":_vm.appleAppStoreLink,"merchant-logo":_vm.merchantLogo,"merchant-name":_vm.merchantName,"translation":false},on:{"homeClick":_vm.goToHome}}):_vm._e(),(_vm.isFixedPayment)?_c('NavBar2'):_vm._e(),_c('v-app',{staticStyle:{"background-color":"#f5f5f5"}},[(_vm.mounted)?_c('router-view'):_vm._e()],1),(_vm.isCustomPage)?_c('Footer',{attrs:{"terms-and-condition-link":_vm.termsAndConditionLink,"merchant-registration-link":_vm.merchantRegistrationLink}}):_vm._e()],1)}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

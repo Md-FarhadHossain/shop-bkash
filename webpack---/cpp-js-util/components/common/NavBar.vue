@@ -1,0 +1,7 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('v-card',{staticClass:"header-container"},[_c('div',{staticClass:"container item-container"},[_c('div',{staticClass:"header-left-div"},[_c('img',{staticClass:"earning-bkash-logo",attrs:{"alt":"img","src":require("./img/earning-bkash-logo.png")}})]),(_vm.translation)?_c('div',{staticClass:"drop-down-div"},[_c('v-menu',{attrs:{"bottom":"","transition":"slide-y-transition"},scopedSlots:_vm._u([{key:"activator",fn:function(ref){
+var on = ref.on;
+var attrs = ref.attrs;
+return [_c('div',_vm._g(_vm._b({staticStyle:{"display":"flex","flex-direction":"row"}},'div',attrs,false),on),[_c('span',{staticClass:"language-text"},[_vm._v(" "+_vm._s(_vm.lang)+" ")]),_c('img',{staticClass:"drop-down-arrow",attrs:{"alt":"img","src":require("./img/drop-down-white-icon.svg")}})])]}}],null,false,3842268971)},[_c('v-list',_vm._l((_vm.languages),function(item,i){return _c('v-list-item',{key:i},[_c('v-list-item-title',{staticClass:"drop-down-item",on:{"click":function($event){return _vm.changeLang(item)}}},[_vm._v(" "+_vm._s(item)+" ")])],1)}),1)],1)],1):_vm._e()])])}
+var staticRenderFns = []
+
+export { render, staticRenderFns }

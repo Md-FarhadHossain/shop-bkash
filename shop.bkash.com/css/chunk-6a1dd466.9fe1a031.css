@@ -1,0 +1,129 @@
+.header-container[data-v-7a23c24d] {
+    background-color: #e2136e;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    justify-content: center
+}
+
+.header-container .item-container[data-v-7a23c24d] {
+    display: flex;
+    max-width: 94%;
+    height: 86px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0
+}
+
+@media(max-width:750px) {
+    .header-container .item-container[data-v-7a23c24d] {
+        height: 46px
+    }
+}
+
+.header-container .item-container .header-left-div[data-v-7a23c24d] {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.header-container .item-container .header-left-div .earning-bkash-logo[data-v-7a23c24d] {
+    width: 116.7px;
+    height: 53.6px
+}
+
+@media(max-width:750px) {
+    .header-container .item-container .header-left-div .earning-bkash-logo[data-v-7a23c24d] {
+        width: 60px;
+        height: 30px
+    }
+}
+
+.header-container .item-container .header-left-div .dashboard-text[data-v-7a23c24d] {
+    font-size: 23px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-left: 34px;
+    cursor: pointer
+}
+
+@media(max-width:750px) {
+    .header-container .item-container .header-left-div .dashboard-text[data-v-7a23c24d] {
+        font-size: 12px;
+        margin-left: 5px
+    }
+}
+
+.header-container .item-container .drop-down-div[data-v-7a23c24d] {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.header-container .item-container .drop-down-div .language-text[data-v-7a23c24d] {
+    text-transform: capitalize !important;
+    font-size: 18px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-top: 5px
+}
+
+.header-container .item-container .drop-down-div .drop-down-arrow[data-v-7a23c24d] {
+    height: 18px;
+    width: 20px;
+    margin: 5px;
+    cursor: pointer
+}
+
+.drop-down-item[data-v-7a23c24d] {
+    cursor: pointer;
+    text-transform: capitalize !important
+}
+
+.header-container[data-v-22db0e0c] {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 0;
+    display: none;
+    justify-content: center
+}
+
+@media(max-width:900px) {
+    .header-container[data-v-22db0e0c] {
+        display: flex
+    }
+}
+
+.header-container .item-container[data-v-22db0e0c] {
+    display: flex;
+    max-width: 94%;
+    height: 86px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0
+}
+
+@media(max-width:750px) {
+    .header-container .item-container[data-v-22db0e0c] {
+        height: 46px
+    }
+}
+
+@media only screen and (max-width:662px) {
+    .bkash-logo[data-v-22db0e0c] {
+        height: 30px;
+        margin-right: 10px;
+        margin-left: 1px
+    }
+}

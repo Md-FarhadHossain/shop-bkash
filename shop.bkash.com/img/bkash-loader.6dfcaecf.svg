@@ -1,0 +1,44 @@
+<svg width="250" height="250"  viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+
+@keyframes frame1 {
+  0% {opacity: 1; transform: translateY(-30px)}
+  20% {opacity: 1}
+  30% {opacity: 0}
+  40% {opacity: 1}
+  50% {opacity: 0; transform: translateY(30px)}
+  60% {opacity: 1}
+  100% {transform: translateY(-30px) }
+}
+
+@keyframes frame2 {
+  0% {opacity: 0; transform: translateY(-30px)}
+  20% {opacity: 0}
+  30% {opacity: 1}
+  40% {opacity: 0}
+  50% {opacity: 1; transform: translateY(30px)}
+  60% {opacity: 0}
+  100% {transform: translateY(-30px) }
+}
+
+
+.first-frame {
+  opacity: 1;
+  animation: frame1 2.5s infinite ;
+}
+.second-frame {
+  opacity: 0;
+  animation: frame2 2.5s infinite ;
+}
+
+</style>
+<path class="first-frame" d="M166.789 136.141L107.155 126.646L115.225 161.855L166.789 136.141ZM169.207 133.258L122.318 68.1205L107.003 123.523L169.207 133.258ZM104.099 122.766L54.9656 60L119.308 67.6893L104.099 122.766ZM80.2614 96.7515L53 71.05H60.1652L80.2614 96.7515ZM183.845 101.613L172.309 132.907L153.6 107.045L183.845 101.613ZM122.5 161.424L167.773 143.247L169.693 137.477L122.5 161.424ZM84.738 194.485L104.137 126.418L113.969 170.715L84.738 194.485ZM186.61 101.85L181.842 114.768L199 114.472L186.61 101.85Z" fill="#9D9D9D"/>
+<g class="second-frame">
+<path d="M167.288 136.528L107.655 127.034L115.725 162.242L167.288 136.528ZM169.706 133.645L150.5 107.432L107.503 123.91L169.706 133.645ZM184.345 102L172.809 133.294L154.1 107.432L184.345 102ZM123 161.811L168.273 143.634L170.193 137.864L123 161.811ZM85.2379 194.872L104.637 126.805L114.469 171.103L85.2379 194.872ZM187.11 102.237L182.342 115.155L199.5 114.859L187.11 102.237Z" fill="#9D9D9D"/>
+<path d="M150.5 107.432L107.503 123.91L120 180L135.25 143.716L150.5 107.432Z" fill="#9D9D9D"/>
+<path d="M182.342 115.155L187.11 102.237L199.5 114.859L182.342 115.155Z" fill="#9D9D9D"/>
+<path d="M72 172.103H67L88 148.5L72 172.103Z" fill="#9D9D9D"/>
+<path d="M72 172.103H67L88 148.5L72 172.103Z" fill="#9D9D9D"/>
+<path d="M117 180.5L67 183.5L104 128L117 180.5Z" fill="#9D9D9D"/>
+</g>
+</svg>
